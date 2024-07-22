@@ -6,4 +6,13 @@
 */
 
 // your code
-let factorial
+const FACTORIAL_NUMBER = 10;
+let factorial, currIteration = 1, currValue = 1;
+
+while (currIteration <= FACTORIAL_NUMBER) {
+  currValue *= currIteration;
+  currIteration++;
+}
+
+factorial = currValue;
+
