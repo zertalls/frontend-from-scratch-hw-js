@@ -3,10 +3,11 @@
 
 // your code
 let MAX_COUNTER = 20;
-let sum = 0, currCounter = 0;
+let sum = 0, currCounter = 1;
 
-while (currCounter < MAX_COUNTER) {
-    sum++;
+while (currCounter <= MAX_COUNTER) {
+    sum +=currCounter;
     currCounter++;
 }
 
+alert(sum);
