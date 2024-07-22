@@ -5,4 +5,12 @@
 */
 
 // your code
-let sum
+const MAX_VALUE = 20
+let sum = 0, currValue = 1;
+
+while (currValue <= MAX_VALUE) {
+  if (currValue % 2 !== 0) {
+    sum += currValue;
+  }
+  currValue++;
+}
