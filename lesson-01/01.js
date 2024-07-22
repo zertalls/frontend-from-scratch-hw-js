@@ -9,5 +9,3 @@ while (currCounter <= MAX_COUNTER) {
     sum +=currCounter;
     currCounter++;
 }
-
-alert(sum);
